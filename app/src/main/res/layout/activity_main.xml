@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtjnnce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JNNCE"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#FF0000"
+        android:layout_below="@id/txtjnnce"
+        android:layout_marginTop="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/imgJnn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+       android:layout_toRightOf="@id/txtjnnce"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/jnn"/>
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:Spoorthi B O"
+        android:textSize="20sp"
+        android:layout_below="@id/txtjnnce"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtjob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job:Student"
+        android:textSize="20sp"
+        android:layout_below="@id/txtname"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ph.no:0123456789"
+        android:textSize="20sp"
+        android:layout_below="@id/txtjob"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address : Department of CSE,JNNCE"
+        android:textSize="20sp"
+        android:layout_below="@id/txtphone"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:spoorthibanagar18@gmail.com"
+        android:textSize="20sp"
+        android:layout_below="@id/txtadd"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+
+
+    <TextView
+        android:id="@+id/txtweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtemail"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:text="Website:@www.jnnce.ac.in"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
